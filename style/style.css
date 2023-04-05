@@ -54,22 +54,38 @@ body {
    transform: translate3d(0, -100px, 0px) rotateX(90deg);
 }
 .side.bottom {
-   transform: translate(0, 100px, 0px) rotateX(90deg);
+   transform: translate3d(0, 100px, 0px) rotateX(90deg);
 }
 
 .side.red {
-   background-color: red;
+   background: ;
 }
 
 .side.grey {
    color: rgb(130, 130, 130);
    background-color: rgb(242, 242, 242);
 }
-.icon {
+.icon-you {
+   position: absolute;
+   color: #FF0000;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   font-size: 90px;
+}
+.icon-twi {
    position: absolute;
    top: 50%;
    left: 50%;
    transform: translate(-50%, -50%);
-   color: blue;
    font-size: 90px;
+   color: #00acee;
+}
+.icon-face {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   font-size: 90px;
+   color: #4267B2;
 }
